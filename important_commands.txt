@@ -1,0 +1,8 @@
+https://vim.rtorr.com/
+---------------------------------------------------------
+
+to search for a word:
+1- move the crusor on the sesired word then shift + 3
+2-to undo the search :noh
+
+------------------------------------------------------------------------
