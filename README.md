@@ -12,7 +12,18 @@ vim has acess to the *os* registers that sotres copy and paste information. We n
 * To paste from a specific register `"(register name)p`. Ex: `"+p` will paste form the `+` register.
 
 
-#  Rsources 
+## Create shortcut
+```
+vnormemap <C-c> "+y
+map <C-v> "+P
+```
+for copying in both the clibpoead and the primary selection 
+```
+vnormemap <C-c> "*y @*=@*<CR>
+```
+
+
+##  Rsources 
 1. [copy paste tutorial](https://vim.fandom.com/wiki/Copy,_cut_and_paste).
 2. [youtube video](https://www.youtube.com/watch?v=E_rbfQqrm7g)
 3. [stack overflow](https://stackoverflow.com/questions/11489428/how-to-make-vim-paste-from-and-copy-to-systems-clipboard
